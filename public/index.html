@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jonathan Chiu</title>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:700,600,400' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+  <div id="top" class="jumbotron">
+    <div class="container">
+      <h1>Jonathan Chiu</h1>
+      <p>Northeastern University 2017</p>
+      <p class="icons text-center">
+        <a href="https://github.com/jonathanchiu"><i class="fa fa-github fa-3x"></i></a>
+        <a href="#"><i class="fa fa-file-text fa-3x"></i></a>
+        <a href="https://www.linkedin.com/in/jonathanchiu7"><i class="fa fa-linkedin-square fa-3x"></i></a>
+        <a href="https://secure.flickr.com/photos/jonathan_chiu/"><i class="fa fa-flickr fa-3x"></i></a>
+        <a href="mailto:jchiu@ccs.neu.edu"><i class="fa fa-envelope fa-3x"></i></a>
+      </p>
+    </div>
+    <div id="overlay"></div>
+  </div>
+
+  <div id="about">
+    <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3">
+          <h1 class="text-center">About</h1>
+          <div id="me"></div>
+          <p>
+            I'm a 3rd-year Northeastern Univesity student, currently majoring in Computer Science. Most of my work experience is in web development, but I am open to all opportunities that come my way. I'm a firm believer in the never ending pursuit of knowledge and actively seek out all perspectives from those who want to share them with me. Want to chat? I'm listening.
+          </p>
+          <p>
+            Outside of my studies and code-related side projects, my interests include learning foreign languages and about different cultures, wiki'ing concepts and theories in the field of astrophysics and cosmology (even if I don't quite understand any of it), playing the guitar, spending time with friends, and when I'm feeling brave, imitating accents.
+          </p>
+          <p>
+            The jumbotron image is sourced from Christopher Nolan's 2014 film <em>Interstellar</em> and depicts a planet orbiting <em>Gargantua</em>, a rapidly rotating (fictional) supermassive black hole.
+          </p>
+      </div>
+    </div>
+    </div>
+  </div>
+
+  <div id="projects">
+    <h1 class="text-center">Projects</h1>
+    <p class="text-center">For more, check out my Github account</p>
+    <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <h3 class="text-center">Fetchlr</h3>
+        <h4 class="text-center">In progress</h4>
+        <img style="width: 295px" src="images/fetchlr.png" class="img-rounded project-thumbnail">
+        <p>
+          A web application that fetches Tumblr posts based on a given username,
+          and the specified post type. For example, giving 'tmagazine' as the username
+          and selecting 'Text' as the post type will return all text posts posted
+          by 'tmagazine.' Utilizes the Tumblr API for data retrieval and dynamic
+          pagination for easy and organized navigation of the returned posts.
+        </p>
+        <p>
+          Still need to make more post types functional and design needs a lot of work. Basic functionality is there and currently only works with text, photo, and audio post types.
+        </p>
+      </div>
+      <div class="col-md-4">
+        <h3 class="text-center">WP Apps</h3>
+        <h4 class="text-center">Complete</h4>
+        <img src="images/wpapps.png" class="img-rounded project-thumbnail">
+        <p>
+          Implemented a number base converter that converts between binary, decimal,
+          octal, and hexadecimal numbers, as well as a tip calculator, for the Windows Phone Store. Their original purpose was to learn/explore more about programming apps for the Windows Phone.
+        </p>
+        <p>
+          Both were written in C# and XAML, and were eventually submitted to Microsoft's 'Keep the Cash'
+          promotion where I was awarded $200 for my app submissions.
+        </p>
+      </div>
+      <div class="col-md-4">
+        <h3 class="text-center">Time</h3>
+        <h4 class="text-center">In progress</h4>
+        <img src="images/placeholder.jpg" class="img-rounded project-thumbnail">
+        <p>
+          Calculates time dilation experienced by a hypothetical observer from the perspective of an observer at "rest", given a duration of travel and a speed at which
+          the moving observer desires to travel at. Will determine how much time has passed for
+          our hypothetical moving observer relative to the observer at rest
+          utilizing the <a href="https://en.wikipedia.org/wiki/Lorentz_factor">lorentz factor</a>.
+        </p>
+        <p>
+          <a href="https://en.wikipedia.org/wiki/Time_dilation">Time dilation</a> is
+          really cool and incredibly bizarre.
+        </p>
+      </div>
+    </div>
+    </div>
+  </div>
+
+  <div id="footer">
+    <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3">
+        <p style="color:#fff" class="footer-text text-center">
+          Thanks for dropping by friend!
+        </p>
+      </div>
+    </div>
+    </div>
+  </div>
+
+<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script>
+  // Putting this here for now since there's so little JS for this site
+  $(document).ready(function() {
+    $('.jumbotron').css({ height: ($(window).height()) +'px' });
+    $(window).resize(function() {
+      $('.jumbotron').css({ height: ($(window).height()) +'px' });
+    });
+  });
+</script>
+</body>
+</html>

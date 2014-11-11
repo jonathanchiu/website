@@ -1,0 +1,147 @@
+html,
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+.container {
+  max-width: 1280px;
+}
+.jumbotron {
+  background: no-repeat center right fixed url('../images/planet.jpg');
+  margin-bottom: 0px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.jumbotron .container {
+  color: #fff;
+  z-index: 2;
+  top: 16%;
+  position: relative;
+}
+.jumbotron .container > * {
+  text-align: center;
+}
+.jumbotron .container h1 {
+  font-weight: 700;
+}
+#about {
+  padding-top: 2em;
+}
+#about h1 {
+  padding-bottom: 10px;
+}
+.icons {
+  padding-top: 0.5em;
+}
+.icons a {
+  margin-right: 6px;
+  text-decoration: none;
+  color: inherit;
+}
+.icons a:hover {
+  color: #494343;
+}
+a:hover {
+  text-decoration: none;
+}
+.project-thumbnail {
+  display: block;
+  margin: auto;
+  width: 350px;
+  user-drag: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+}
+#projects {
+  padding-top: 15px;
+  padding-bottom: 4em;
+}
+#overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #000;
+  z-index: 1;
+  opacity: 0.35;
+}
+#footer {
+  background: no-repeat center right fixed url('images/planet.jpg');
+  margin-bottom: 0px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#me {
+  padding-bottom: 1em;
+  display: block;
+  margin: auto;
+  width: 370px;
+  height: 370px;
+  border-radius: 250px;
+  -webkit-border-radius: 250px;
+  -moz-border-radius: 250px;
+  background: url('../images/me.jpg') no-repeat center;
+}
+/**
+ * Golden Ratio scale factor (1.618)
+ *
+ * Thanks to:
+ * - http://www.gridlover.net/app/
+ * - http://type-scale.com/
+ */
+body {
+  font-size: 1.375em;
+  line-height: 1.636363636em;
+}
+h1 {
+  font-size: 4.227272727em;
+  line-height: 1.161290322em;
+  margin-top: 0.77419355em;
+  margin-bottom: 0.38709677em;
+}
+h2 {
+  font-size: 2.636363636em;
+  line-height: 1.24137931em;
+  margin-top: 1.24137931em;
+  margin-bottom: 0.62068965em;
+}
+h3 {
+  font-size: 1.636363636em;
+  line-height: 1em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+h4 {
+  font-size: 1em;
+  line-height: 1.636363636em;
+  margin-top: 1.63636364em;
+  margin-bottom: 1.63636364em;
+}
+p, ul, ol, pre, table, blockquote {
+  margin-top: 1.63636364em;
+  margin-bottom: 1.63636364em;
+}
+/* Sanitation */
+hr {
+  border: 1px solid;
+  margin: -1px 0;
+}
+ul ul, ol ol, ul ol, ol ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+b, strong, em, small, code {
+  line-height: 1;
+}
+sup, sub {
+  vertical-align: baseline;
+  position: relative;
+  top: -0.4em;
+}
+sub {
+  top: 0.4em;
+}
