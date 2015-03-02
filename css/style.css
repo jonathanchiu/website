@@ -6,7 +6,9 @@ body {
   max-width: 1280px;
 }
 .jumbotron {
-  background: no-repeat center right fixed url('../images/planet.jpg');
+  /*background: no-repeat center right fixed url('../images/planet.jpg');*/
+  /* Photo taken from unsplash */
+  background: no-repeat center right fixed url('../images/cups.jpg');
   margin-bottom: 0px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -47,12 +49,17 @@ a:hover {
   text-decoration: none;
 }
 .project-thumbnail {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  width: 300px;
+  height: 300px;
   display: block;
   margin: auto;
-  width: 300px;
   user-drag: none;
   -moz-user-select: none;
   -webkit-user-drag: none;
+  margin-top: 3em;
+  margin-bottom: 3em;
 }
 #projects {
   padding-top: 15px;
@@ -72,7 +79,6 @@ a:hover {
   opacity: 0.35;
 }
 #me {
-  padding-bottom: 1em;
   display: block;
   margin: auto;
   width: 400px;
@@ -81,6 +87,8 @@ a:hover {
   -moz-border-radius: 50%;
   background: url('../images/me.jpg') no-repeat;
   background-position: 79% 5%;
+  margin-top: 2.5em;
+  margin-bottom: 2.5em;
 }
 /**
  * Golden Ratio scale factor (1.618)
