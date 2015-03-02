@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jonathan Chiu</title>
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+  <div id="top" class="jumbotron">
+    <div class="container">
+      <h1>Jonathan Chiu</h1>
+      <p>Northeastern University 2017</p>
+      <p class="icons text-center">
+        <a href="http://blog.jonathanchiu.me"><i class="fa fa-pencil-square fa-3x"></i></a>
+        <a href="https://github.com/jonathanchiu"><i class="fa fa-github-square fa-3x"></i></a>
+        <a href="resume.pdf"><i class="fa fa-file-text fa-3x"></i></a>
+        <a href="https://www.linkedin.com/in/jonathanchiu7"><i class="fa fa-linkedin-square fa-3x"></i></a>
+        <a href="https://secure.flickr.com/photos/jonathan_chiu/"><i class="fa fa-flickr fa-3x"></i></a>
+        <a href="mailto:jchiu@ccs.neu.edu"><i class="fa fa-envelope-square fa-3x"></i></a>
+      </p>
+    </div>
+    <div id="overlay"></div>
+  </div>
+
+  <div id="about">
+    <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3">
+          <h1 class="text-center">About</h1>
+          <div id="me"></div>
+          <p>
+            I'm a 3rd-year Northeastern Univesity student, currently majoring in Computer Science. Most of my work experience is in web development, but I am open to all development opportunities that come my way.
+          </p>
+          <p>
+            Outside of my studies and side projects, my interests include learning foreign languages and about different cultures, wiki'ing random concepts and theories that pique my interest in the field of astronomy (even if I don't quite understand any of it), playing the guitar, spending time with friends, trying new foods, and when I'm feeling brave, doing impressions.
+          </p>
+      </div>
+    </div>
+    </div>
+  </div>
+
+  <div id="projects">
+    <h1 class="text-center">Projects</h1>
+    <p class="text-center">For more info, check out my Github account</p>
+    <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="project">
+          <h3 class="text-center">Fetchlr</h3>
+          <h4 class="text-center">Complete</h4>
+          <img style="width: 295px" src="images/fetchlr_updated.png" class="img-rounded project-thumbnail">
+          <p>
+            A web application that allows for filtering of Tumblr posts based on a post type. It is currently functional, but still needs a lot more work. You can try it out by clicking <a href="/fetchlr">here</a>.
+          </p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="project">
+          <h3 class="text-center">WP Apps</h3>
+          <h4 class="text-center">Complete</h4>
+          <img src="images/wpapps.png" class="img-rounded project-thumbnail">
+          <p>
+            Implemented a number base converter that converts between binary, decimal,
+            octal, and hexadecimal numbers, as well as a tip calculator, for the Windows Phone Store. Their original purpose was to learn/explore more about programming apps for the Windows Phone.
+          </p>
+          <p>
+            Both were written in C# and XAML, and were eventually submitted to Microsoft's 'Keep the Cash'
+            promotion where I was awarded $200 for my app submissions.
+          </p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="project">
+          <h3 class="text-center">Time</h3>
+          <h4 class="text-center">In progress</h4>
+          <img src="images/placeholder.jpg" class="img-rounded project-thumbnail">
+          <p>
+            Calculates time dilation experienced by a traveling person from the perspective of an observer at "rest", and vice-versa, given a duration of travel and a speed at which
+            the moving observer desires to travel at. Will determine how much time has passed for both people
+            utilizing the <a href="https://en.wikipedia.org/wiki/Lorentz_factor">lorentz factor</a>.
+          </p>
+          <p>
+            <a href="https://en.wikipedia.org/wiki/Time_dilation">Time dilation</a> is
+            really cool and incredibly bizarre.
+          </p>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+
+<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script>
+  // Putting this here for now since there's so little JS for this site
+  $(document).ready(function() {
+    $('.jumbotron').css({ height: ($(window).height()) +'px' });
+    $(window).resize(function() {
+      $('.jumbotron').css({ height: ($(window).height()) +'px' });
+    });
+  });
+</script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-58836027-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>
