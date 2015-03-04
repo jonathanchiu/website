@@ -1,7 +1,7 @@
 {
-  "name": "fetchlr",
+  "name": "Personal Website",
   "version": "1.0.0",
-  "description": "Filter Tumblr posts based on a post type",
+  "description": "My personal website at http://jonathanchiu.me",
   "author": "Jonathan Chiu",
   "dependencies": {
     "express": "4.12.2",
