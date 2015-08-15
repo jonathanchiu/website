@@ -6,8 +6,7 @@ body {
   max-width: 1280px;
 }
 .jumbotron {
-  /* Photo taken from unsplash */
-  background: no-repeat center right fixed url('../images/flowers-min.jpg');
+  background: no-repeat center right fixed url('../images/flowers.jpg');
   margin-bottom: 0px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -49,14 +48,14 @@ a:hover {
 }
 .project-thumbnail {
   -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
+  border-radius: 50%;
+  user-drag: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
   width: 300px;
   height: 300px;
   display: block;
   margin: auto;
-  user-drag: none;
-  -moz-user-select: none;
-  -webkit-user-drag: none;
   margin-top: 3em;
   margin-bottom: 3em;
 }
@@ -80,12 +79,13 @@ a:hover {
 #me {
   display: block;
   margin: auto;
-  width: 320px;
-  height: 320px;
+  width: 285px;
+  height: 285px;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
-  background: url('../images/me.jpg') no-repeat;
-  background-position: 76% 7%;
+  background: url('../images/cropped_clypd.jpg') no-repeat;
+  /*background-position: 76% 7%;*/
+  background-position: 53%;
   margin-top: 2.5em;
   margin-bottom: 2.5em;
 }
